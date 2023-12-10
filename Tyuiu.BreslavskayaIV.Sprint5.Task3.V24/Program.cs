@@ -26,6 +26,7 @@ namespace Tyuiu.BreslavskayaIV.Sprint5.Task3.V24
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
+            Console.WriteLine("* y = 6.1 * x * x * x + 0.23 * x * x + 1.04 * x                            *");
             DataService ds = new DataService();
             string res = ds.SaveToFileTextData(x);
             Console.WriteLine("Файл: " + res);

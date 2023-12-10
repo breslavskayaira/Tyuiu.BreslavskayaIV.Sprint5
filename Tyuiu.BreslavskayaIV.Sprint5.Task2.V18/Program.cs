@@ -19,7 +19,7 @@ namespace Tyuiu.BreslavskayaIV.Sprint5.Task2.V18
             Console.Title = "Спринт #5 | Выполнила: Бреславская И. В. | ПКТб-23-2";
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #5                                                                *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                         *");
+            Console.WriteLine("* Тема: Класс File. Запись структурированных данных в текстовый файл       *");
             Console.WriteLine("* Задание #2                                                               *");
             Console.WriteLine("* Вариант #18                                                              *");
             Console.WriteLine("* Выполнила: Бреславская И. В. | ПКТб-23-2                                 *");

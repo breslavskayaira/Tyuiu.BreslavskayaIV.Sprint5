@@ -18,7 +18,7 @@ namespace Tyuiu.BreslavskayaIV.Sprint5.Task1.V1
             Console.Title = "Спринт #5 | Выполнила: Бреславская И. В. | ПКТб-23-2";
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #5                                                                *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                         *");
+            Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                  *");
             Console.WriteLine("* Задание #1                                                               *");
             Console.WriteLine("* Вариант #1                                                               *");
             Console.WriteLine("* Выполнила: Бреславская И. В. | ПКТб-23-2                                 *");
@@ -29,6 +29,7 @@ namespace Tyuiu.BreslavskayaIV.Sprint5.Task1.V1
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
+            Console.WriteLine("* (5 * x + 2.5) / (Math.Sin(x) + 2) + 2 * x + 2                                                       *");
             DataService ds = new DataService();
             string res = ds.SaveToFileTextData(startValue, stopValue);
             Console.WriteLine("Файл: " + res);
