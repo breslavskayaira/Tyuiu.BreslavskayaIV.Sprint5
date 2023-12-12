@@ -22,23 +22,22 @@ namespace Tyuiu.BreslavskayaIV.Sprint5.Task7.V8.Lib
             }
             
             
-            string a = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-            string b = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            string result = "";
             string pathIn = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask7V8.txt";
             string line = File.ReadAllText(pathIn);
-            for (int i = 0; i < line.Length; i++)
+            foreach (char item in line)
             {
-                for (int j = 0; j < a.Length; j++)
+                if (item >= 'А' && item <= 'Я')
                 {
-                    if (line[i] == a[j])
-                    {
-                        line = line.Replace(line[i], b[j]);
-                    }
+                    result += char.ToLower(item);
                 }
-                        
+                else
+                {
+                    result += item;
+                }
             }
-                   
-            File.AppendAllText(pathSave, line);
+
+            File.AppendAllText(pathSave, result);
             return pathSave;
 
         }
